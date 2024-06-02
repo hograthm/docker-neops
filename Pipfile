@@ -4,8 +4,9 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+ruff = "*"
+pre-commit = "*"
 
 [packages]
 docker = "*"
 termcolor = "*"
-
