@@ -18,6 +18,13 @@ dependencies = [
     "pydantic"
 ]
 
+[project.urls]
+"Homepage" = "https://github.com/hograthm/docker-neops"
+"Bug Tracker" = "https://github.com/hograthm/docker-neops/issues"
+
 [project.scripts]
 docker-neops = "docker_neops.main:main"
 
+[tool.ruff]
+# Set the maximum line length to 79.
+line-length = 79
