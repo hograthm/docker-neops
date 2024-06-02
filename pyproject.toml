@@ -6,7 +6,11 @@ build-backend = "setuptools.build_meta"
 name = "docker-neops"
 version = "0.1.0"
 description = "A Docker container information display tool."
+authors = [
+  { name="Hograth Minestone", email="me@hograthm.com" },
+]
 readme = "README.md"
+license = {file = "LICENSE"}
 requires-python = ">=3.9"
 dependencies = [
     "docker",
