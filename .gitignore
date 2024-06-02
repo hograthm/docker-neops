@@ -1,2 +1,3 @@
 .venv
+.vscode
 src/docker_neops/docker_neops.egg-info
