@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docker-neops"
+version = "0.1.0"
+description = "A Docker container information display tool."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "docker",
+    "termcolor",
+    "pydantic"
+]
+
+[project.scripts]
+docker-neops = "docker_neops.main:main"
+
